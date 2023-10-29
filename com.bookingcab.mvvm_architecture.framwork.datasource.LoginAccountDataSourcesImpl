@@ -1,0 +1,14 @@
+package com.bookingcab.mvvm_architecture.framwork.datasource
+
+import com.bookingcab.mvvm_architecture.data.datasources.LoginAccountDataSources
+
+class LoginAccountDataSourcesImpl: LoginAccountDataSources {
+    override suspend fun loginAccount(): Int {
+        return xxx();
+    }
+
+    fun xxx(): Int{
+        return 1
+    }
+
+}
